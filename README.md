@@ -24,4 +24,4 @@ to github and can be seen explicity using the git log command:
 
 `git log --pretty=format:"%H, Author:%an, Committer:%cn, message:%s"`
 
-Here we see the author and the committer. An explanation is given here [rebase and merge pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges#rebase-and-merge-your-pull-request-commits). The difference between author and committer is also described [here](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
+Here we see the author and the committer and how they differ when completing a PR in Github. If you try the same command with an Azure DevOps git repository you will see that the Auther=Committer. A good explanation of this for Github is given here [rebase and merge pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges#rebase-and-merge-your-pull-request-commits). The difference between author and committer is also described [here](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
