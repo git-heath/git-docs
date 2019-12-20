@@ -1,10 +1,10 @@
-# Git tups and trick
+# Git tips and trick
 
 ## Git diff
 
 Useful command for comparing tags or branches. In this example we limit the diffs to a particular directory:
 
-`git diff TagA..TabB --compact-summary .\src\frontend\Digital.Authentication.Service\`
+`git diff TagA..TagB --compact-summary .\src\My-App\`
 
 Or to just get some overall stats:
 
