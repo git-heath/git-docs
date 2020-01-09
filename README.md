@@ -6,9 +6,9 @@ Useful command for comparing tags or branches. In this example we limit the diff
 
 `git diff TagA..TagB --compact-summary .\src\My-App\`
 
-Or to just get some overall stats:
+Or to just get some overall stats: `git diff TagA..TagB --shortstat`
 
-`git diff TagA..TagB --shortstat`
+**Useful**: To list tags in order for a repo: `git tag --list 'Nameof.Application*' --sort v:refname`
 
 ## Git log
 
