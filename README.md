@@ -10,6 +10,10 @@ Or to just get some overall stats: `git diff TagA..TagB --shortstat`
 
 **Useful**: To list tags in order for a repo: `git tag --list 'Nameof.Application*' --sort v:refname`
 
+## Deleting a remote tag
+
+Useful command: `git push origin :refs/tags/MyTag-20.01.16-dev`
+
 ## Git log
 
 Nice simple history for the last n commits:
