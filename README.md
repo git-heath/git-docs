@@ -31,9 +31,14 @@ to github and can be seen explicity using one of the following git log commands:
 
 Here we see the author and the committer and how they differ when completing a PR in Github. If you try the same command with an Azure DevOps git repository you will see that the Auther=Committer. A good explanation of this for Github is given here [rebase and merge pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges#rebase-and-merge-your-pull-request-commits). The difference between author and committer is also described [here](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
 
-## Reset
+## Cleaning
 
 If your local git is in a bad state and you want to dump everything locally and sync with the origin (for example a rebase gone wrong):
 
 `git reset --hard origin/features/myBranch`
+
+Even after doing this you may still have some untracked files (in working tree). To remove these you can use the git clean option.
+
+- `git clean -n` : Check what you are going to clean
+- `git clean -f` : Do the actual cleaning (removing) of files
 
